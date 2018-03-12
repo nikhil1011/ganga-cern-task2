@@ -23,7 +23,6 @@ define([
         events.on("rendered.MarkdownCell", function (event, data) {        
             var cellContent = data.cell.element.find('div.text_cell_render')[0];
             cellContent.innerHTML = cellContent.innerHTML.replace(/SWAN/g,"<img src='/nbextensions/Task2/logo_swan_cloudhisto.png' style='width:30px;height:30px;display:inline'/>");
-            console.log(data.cell);
         });   
     }
     
