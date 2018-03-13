@@ -11,5 +11,4 @@ To run this, execute the following commands
 To disable,
  - jupyter nbextension disable Task2/main
 
-For example,
-
+Ping me on Gitter, handle: nikhil1011, for any queries.
